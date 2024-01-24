@@ -5,3 +5,4 @@ index:
 - https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
 - https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack
 - https://marketplace.visualstudio.com/items?itemName=redhat.ansible
+- https://marketplace.visualstudio.com/items?itemName=HashiCorp.HCL
