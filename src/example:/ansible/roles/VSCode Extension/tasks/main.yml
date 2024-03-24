@@ -1,0 +1,7 @@
+---
+- name: Flutter extension for VS Code
+  ansible.builtin.shell: "code --install-extension {{ item }}"
+  args:
+    creates: "{{ ansible_env.HOME }}/.vscode/extensions/{{ item | lower }}*"
+  loop:
+  - Dart-Code.flutter
